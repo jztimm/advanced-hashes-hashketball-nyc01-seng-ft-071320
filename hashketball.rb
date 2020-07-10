@@ -161,14 +161,13 @@ def team_colors(team_name)
 end
 
 def team_names
-<<<<<<< HEAD
+
     return [ game_hash[:home][:team_name], game_hash[:away][:team_name] ]
-=======
+
   game_hash.each do |location, team|
     return team
     binding.pry
   end
->>>>>>> e7b962fe22a2ea54b0454ce98c84eed506473747
 end
 
 def player_numbers(team_name)
@@ -194,7 +193,7 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
-<<<<<<< HEAD
+
   biggest_player_rebounds = 0
   big_shoe_size = 0
   game_hash.each do |location, team|
@@ -206,9 +205,7 @@ def big_shoe_rebounds
     end
   end
   biggest_player_rebounds
-=======
-  
->>>>>>> e7b962fe22a2ea54b0454ce98c84eed506473747
+
 end
 
 
